@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import 'globals';
+@import 'variables';
+
+header {
+    text-align: center;
+    padding: 4rem 1rem;
+    
+    
+    h1 {
+        font-size: 1.6rem;
+        font-weight: 200;
+    }
+}
+
+#main {
+    .flexbox-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2rem;
+
+        .box {
+            background: $light-gray;
+            margin: 2rem 0;
+
+        }
+    }
+}
